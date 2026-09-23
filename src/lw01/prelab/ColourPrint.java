@@ -9,7 +9,6 @@ public class ColourPrint extends PrintJob {
     @Override
     public int calculateCharge() {
         int charge;
-
         if (pages <= 10) {
             charge = pages * 1500;
         } else {
